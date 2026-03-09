@@ -29,7 +29,7 @@ import { getFirestore } from "firebase/firestore"
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCpiZC-Ro0Qf2_xuI99imkPP9r7BgZvia8",
+  apiKey: import.meta.env.FIREBASE_API_KEY,
   authDomain: "aitripproject-25b51.firebaseapp.com",
   databaseURL: "https://aitripproject-25b51-default-rtdb.firebaseio.com",
   projectId: "aitripproject-25b51",
