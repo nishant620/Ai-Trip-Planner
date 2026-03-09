@@ -1,0 +1,44 @@
+// // Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// import { getFirestore } from "firebase/firestore"
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
+
+// // Your web app's Firebase configuration
+// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// const firebaseConfig = {
+//   apiKey: "",
+//   authDomain: "",
+//   projectId: "",
+//   storageBucket: "",
+//   messagingSenderId: "",
+//   appId: "",
+//   measurementId: ""
+// };
+
+// // Initialize Firebase
+// export const app = initializeApp(firebaseConfig);
+// export const db = getFirestore(app)
+// Import the functions you need from the SDKs you need
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore"
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCpiZC-Ro0Qf2_xuI99imkPP9r7BgZvia8",
+  authDomain: "aitripproject-25b51.firebaseapp.com",
+  databaseURL: "https://aitripproject-25b51-default-rtdb.firebaseio.com",
+  projectId: "aitripproject-25b51",
+  storageBucket: "aitripproject-25b51.firebasestorage.app",
+  messagingSenderId: "899342274453",
+  appId: "1:899342274453:web:3ed7348ee9d9aa2d39309c",
+  measurementId: "G-E4NJTLNV0S"
+};
+
+// Initialize Firebase
+export const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);
